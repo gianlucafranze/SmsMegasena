@@ -40,8 +40,8 @@ navegador.quit()
 
 #send to joselita's phone
 
-account_sid = "AC8a4fa90526612b991d5bc571fba0b6e2"
-auth_token = "658d5f8562b2766f96ff6e0275b903a6"
+account_sid = "sid"
+auth_token = "token"
 client = Client(account_sid, auth_token)
 
 message = client.messages.create(
